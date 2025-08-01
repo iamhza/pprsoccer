@@ -10,10 +10,16 @@ struct DraftBoardView: View {
     @State private var currentDraft: Draft?
     @State private var selectedPlayer: Player?
     @State private var showingPlayerDetail = false
-    @State private var timeRemaining = 90
-    @State private var timer: Timer?
     @State private var searchText = ""
     @State private var selectedPosition = "ALL"
+    @State private var timer: Timer?
+    @State private var timeRemaining = 60
+    @State private var draftHistory: [DraftPick] = []
+    @State private var currentPick = 1
+    @State private var refreshTrigger = false
+    
+    private var teamsCount: Int { teams.count }
+    private var rounds: Int { 15 } // Standard fantasy draft rounds
     
     private let positions = ["ALL", "GK", "DEF", "MID", "FWD"]
     
@@ -74,6 +80,22 @@ struct DraftBoardView: View {
                     .disabled(selectedPlayer == nil || !isUserTurn())
                     .foregroundColor(.purple)
                 }
+                
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Refresh") {
+                        print("🔄 DEBUG: Manual refresh triggered")
+                        refreshTrigger.toggle()
+                        
+                        // Force context refresh
+                        do {
+                            try modelContext.save()
+                            print("🔄 DEBUG: Context saved during refresh")
+                        } catch {
+                            print("❌ DEBUG: Context save error during refresh: \(error)")
+                        }
+                    }
+                    .foregroundColor(.blue)
+                }
             }
             .sheet(isPresented: $showingPlayerDetail) {
                 if let player = selectedPlayer {
@@ -81,6 +103,11 @@ struct DraftBoardView: View {
                 }
             }
             .onAppear {
+                print("🎯 DEBUG: DraftBoardView appeared")
+                print("🎯 DEBUG: Initial players count: \(players.count)")
+                print("🎯 DEBUG: Initial teams count: \(teams.count)")
+                print("🎯 DEBUG: Initial drafts count: \(drafts.count)")
+                
                 setupDraft()
                 startTimer()
             }
@@ -115,6 +142,8 @@ struct DraftBoardView: View {
         // Check if draft already exists
         if let existingDraft = drafts.first {
             currentDraft = existingDraft
+            draftHistory = currentDraft?.draftHistory ?? []
+            currentPick = currentDraft?.currentPick ?? 1
         } else {
             // Create new draft
             createMockDraft()

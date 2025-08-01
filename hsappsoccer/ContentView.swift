@@ -33,6 +33,14 @@ struct ContentView: View {
         .onAppear {
             print("📱 DEBUG: ContentView appeared - populating players...")
             PlayerDataService.shared.populatePlayers(context: modelContext)
+            
+            // Force a save and refresh
+            do {
+                try modelContext.save()
+                print("📱 DEBUG: ContentView context saved successfully")
+            } catch {
+                print("❌ DEBUG: ContentView context save error: \(error)")
+            }
         }
     }
 }
