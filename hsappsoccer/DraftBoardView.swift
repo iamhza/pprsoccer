@@ -62,13 +62,40 @@ struct DraftBoardView: View {
                 .padding()
                 
                 // Available Players
-                AvailablePlayersView(
-                    players: filteredPlayers,
-                    onPlayerSelected: { player in
-                        selectedPlayer = player
-                        showingPlayerDetail = true
+                VStack {
+                    Text("Available Players (\(filteredPlayers.count))")
+                        .font(.headline)
+                        .padding(.top)
+                    
+                    if filteredPlayers.isEmpty {
+                        VStack(spacing: 16) {
+                            Text("No players available")
+                                .font(.title2)
+                                .foregroundColor(.secondary)
+                            Text("Debug: \(players.count) total players in database")
+                                .font(.caption)
+                                .foregroundColor(.red)
+                            Button("Force Refresh") {
+                                print("🔄 DEBUG: Force refresh button tapped")
+                                refreshTrigger.toggle()
+                            }
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                        }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(Color(.systemGray6))
+                    } else {
+                        AvailablePlayersView(
+                            players: filteredPlayers,
+                            onPlayerSelected: { player in
+                                selectedPlayer = player
+                                showingPlayerDetail = true
+                            }
+                        )
                     }
-                )
+                }
             }
             .navigationTitle("Draft Board")
             .navigationBarTitleDisplayMode(.inline)
