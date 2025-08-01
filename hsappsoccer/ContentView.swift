@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
     var body: some View {
@@ -8,7 +9,7 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            DraftView()
+            DraftBoardView()
                 .tabItem {
                     Image(systemName: "list.bullet")
                     Text("Draft")
@@ -76,46 +77,16 @@ struct HomeView: View {
     }
 }
 
-// MARK: - DraftView
 
-struct DraftView: View {
-    @State private var availablePlayers = [
-        Player(name: "Lionel Messi", position: "FWD", team: "Inter Miami", points: 245),
-        Player(name: "Erling Haaland", position: "FWD", team: "Manchester City", points: 198),
-        Player(name: "Kevin De Bruyne", position: "MID", team: "Manchester City", points: 187),
-        Player(name: "Virgil van Dijk", position: "DEF", team: "Liverpool", points: 156),
-        Player(name: "Alisson", position: "GK", team: "Liverpool", points: 134)
-    ]
-    
-    var body: some View {
-        NavigationView {
-            List {
-                ForEach(availablePlayers) { player in
-                    PlayerRow(player: player)
-                }
-            }
-            .navigationTitle("Draft Board")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Draft") {
-                        // Draft logic here
-                    }
-                    .foregroundColor(.purple)
-                }
-            }
-        }
-    }
-}
 
 // MARK: - TeamView
 
 struct TeamView: View {
-    @State private var myPlayers = [
-        Player(name: "Kylian Mbappé", position: "FWD", team: "PSG", points: 189),
-        Player(name: "Jude Bellingham", position: "MID", team: "Real Madrid", points: 167),
-        Player(name: "Ruben Dias", position: "DEF", team: "Manchester City", points: 145),
-        Player(name: "Ederson", position: "GK", team: "Manchester City", points: 123)
-    ]
+    @Query private var players: [Player]
+    
+    private var myPlayers: [Player] {
+        players.filter { $0.isDrafted && $0.draftedBy == "Team A" }
+    }
     
     var body: some View {
         NavigationView {
@@ -247,7 +218,7 @@ struct PlayerRow: View {
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundColor(.purple)
-                Text("points")
+                Text("PPR")
                     .font(.caption2)
                     .foregroundColor(.secondary)
             }
