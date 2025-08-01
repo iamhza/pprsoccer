@@ -108,6 +108,40 @@ struct DraftBoardView: View {
                 print("🎯 DEBUG: Initial teams count: \(teams.count)")
                 print("🎯 DEBUG: Initial drafts count: \(drafts.count)")
                 
+                // Try populating players directly here
+                print("🎯 DEBUG: Attempting to populate players in DraftBoardView...")
+                PlayerDataService.shared.populatePlayers(context: modelContext)
+                
+                // Also try creating a simple test player
+                print("🎯 DEBUG: Creating test player...")
+                let testPlayer = Player(
+                    id: "test1",
+                    name: "Test Player",
+                    position: "FWD",
+                    team: "Test Team",
+                    league: "Test League"
+                )
+                modelContext.insert(testPlayer)
+                
+                // Force save and check again
+                do {
+                    try modelContext.save()
+                    print("🎯 DEBUG: DraftBoardView context saved")
+                    
+                    // Check players again after save
+                    let descriptor = FetchDescriptor<Player>()
+                    let allPlayers = try? modelContext.fetch(descriptor)
+                    print("🎯 DEBUG: Players in context after save: \(allPlayers?.count ?? 0)")
+                    
+                    if let allPlayers = allPlayers {
+                        for (index, player) in allPlayers.enumerated() {
+                            print("🎯 DEBUG: Player \(index + 1): \(player.name) (\(player.position))")
+                        }
+                    }
+                } catch {
+                    print("❌ DEBUG: DraftBoardView context save error: \(error)")
+                }
+                
                 setupDraft()
                 startTimer()
             }
