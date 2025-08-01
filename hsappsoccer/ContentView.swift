@@ -51,9 +51,9 @@ struct HomeView: View {
                     
                     // Quick Stats
                     HStack(spacing: 15) {
-                        StatCard(title: "My Team", value: "8th", color: .blue)
-                        StatCard(title: "Points", value: "1,247", color: .green)
-                        StatCard(title: "Record", value: "4-3", color: .orange)
+                        StatCard(title: "My Team", value: "8th", icon: "person.3.fill", color: .blue)
+                        StatCard(title: "Points", value: "1,247", icon: "chart.line.uptrend.xyaxis", color: .green)
+                        StatCard(title: "Record", value: "4-3", icon: "trophy.fill", color: .orange)
                     }
                     .padding(.horizontal)
                     

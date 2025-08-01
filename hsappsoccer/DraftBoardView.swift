@@ -464,12 +464,12 @@ struct PlayerDetailView: View {
                     
                     // Stats Grid
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 16) {
-                        StatCard(title: "Goals", value: "\(player.goals)", color: .green)
-                        StatCard(title: "Assists", value: "\(player.assists)", color: .blue)
-                        StatCard(title: "Passes", value: "\(player.passes)", color: .orange)
-                        StatCard(title: "Clean Sheets", value: "\(player.cleanSheets)", color: .purple)
-                        StatCard(title: "Saves", value: "\(player.saves)", color: .cyan)
-                        StatCard(title: "PPR Points", value: "\(player.points)", color: .red)
+                        StatCard(title: "Goals", value: "\(player.goals)", icon: "soccerball", color: .green)
+                        StatCard(title: "Assists", value: "\(player.assists)", icon: "hand.point.up", color: .blue)
+                        StatCard(title: "Passes", value: "\(player.passes)", icon: "arrow.right", color: .orange)
+                        StatCard(title: "Clean Sheets", value: "\(player.cleanSheets)", icon: "shield", color: .purple)
+                        StatCard(title: "Saves", value: "\(player.saves)", icon: "hand.raised", color: .cyan)
+                        StatCard(title: "PPR Points", value: "\(player.points)", icon: "chart.bar", color: .red)
                     }
                     .padding(.horizontal)
                 }
