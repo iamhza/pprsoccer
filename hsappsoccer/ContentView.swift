@@ -2,6 +2,8 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var modelContext
+    
     var body: some View {
         TabView {
             HomeView()
@@ -9,23 +11,29 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
+            
             DraftBoardView()
                 .tabItem {
                     Image(systemName: "list.bullet")
                     Text("Draft")
                 }
+            
             TeamView()
                 .tabItem {
                     Image(systemName: "person.3.fill")
                     Text("My Team")
                 }
+            
             LeagueView()
                 .tabItem {
                     Image(systemName: "trophy.fill")
                     Text("League")
                 }
         }
-        .accentColor(.green)
+        .onAppear {
+            print("📱 DEBUG: ContentView appeared - populating players...")
+            PlayerDataService.shared.populatePlayers(context: modelContext)
+        }
     }
 }
 

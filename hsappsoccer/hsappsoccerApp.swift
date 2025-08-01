@@ -33,11 +33,6 @@ struct hsappsoccerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .onAppear {
-                    // Populate player data on first launch
-                    let context = sharedModelContainer.mainContext
-                    PlayerDataService.shared.populatePlayers(context: context)
-                }
         }
         .modelContainer(sharedModelContainer)
     }
