@@ -16,7 +16,10 @@ struct hsappsoccerApp: App {
             Player.self,
             Team.self,
             League.self,
-            Draft.self
+            Draft.self,
+            ScoringSettings.self,
+            DraftSettings.self,
+            DraftPick.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

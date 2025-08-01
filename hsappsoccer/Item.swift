@@ -121,33 +121,60 @@ final class Draft {
 }
 
 // MARK: - Supporting Models
-struct ScoringSettings {
-    var goalPoints: Double = 6.0
-    var assistPoints: Double = 4.0
-    var passPoints: Double = 0.5
-    var cleanSheetPoints: Double = 4.0
-    var savePoints: Double = 1.0
-    var yellowCardPoints: Double = -1.0
-    var redCardPoints: Double = -3.0
+@Model
+final class ScoringSettings {
+    var goalPoints: Double
+    var assistPoints: Double
+    var passPoints: Double
+    var cleanSheetPoints: Double
+    var savePoints: Double
+    var yellowCardPoints: Double
+    var redCardPoints: Double
+    
+    init() {
+        self.goalPoints = 6.0
+        self.assistPoints = 4.0
+        self.passPoints = 0.5
+        self.cleanSheetPoints = 4.0
+        self.savePoints = 1.0
+        self.yellowCardPoints = -1.0
+        self.redCardPoints = -3.0
+    }
 }
 
-struct DraftSettings {
-    var rounds: Int = 15
-    var timePerPick: Int = 90 // seconds
-    var positions: [String: Int] = [
-        "GK": 2,
-        "DEF": 5,
-        "MID": 5,
-        "FWD": 3
-    ]
+@Model
+final class DraftSettings {
+    var rounds: Int
+    var timePerPick: Int
+    var positions: [String: Int]
+    
+    init() {
+        self.rounds = 15
+        self.timePerPick = 90 // seconds
+        self.positions = [
+            "GK": 2,
+            "DEF": 5,
+            "MID": 5,
+            "FWD": 3
+        ]
+    }
 }
 
-struct DraftPick {
+@Model
+final class DraftPick {
     var round: Int
     var pick: Int
     var teamIndex: Int
     var player: Player
     var timestamp: Date
+    
+    init(round: Int, pick: Int, teamIndex: Int, player: Player, timestamp: Date) {
+        self.round = round
+        self.pick = pick
+        self.teamIndex = teamIndex
+        self.player = player
+        self.timestamp = timestamp
+    }
 }
 
 // MARK: - Legacy Item (keeping for compatibility)

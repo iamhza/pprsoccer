@@ -1,0 +1,1396 @@
+
+Showing Recent Issues
+
+Build target hsappsoccer of project hsappsoccer with configuration Debug
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ hsappsoccer (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -emit-module-doc-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.swiftdoc -emit-module-source-info-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.swiftsourceinfo -emit-objc-header-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer-Swift.h -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer-master-emit-module.dia -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer-master-emit-module.d -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.swiftmodule -emit-abi-descriptor-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.abi.json
+
+EmitSwiftModule normal arm64 (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -emit-module-doc-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.swiftdoc -emit-module-source-info-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.swiftsourceinfo -emit-objc-header-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer-Swift.h -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer-master-emit-module.dia -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer-master-emit-module.d -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.swiftmodule -emit-abi-descriptor-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer.abi.json
+
+@__swiftmacro_11hsappsoccer8TeamViewV7players33_1B2274DFA68D5B2453D08933BD2ABF3BLL5QueryfMp_.swift:1:45: error: 'Player' is ambiguous for type lookup in this context
+private(set) var _players: SwiftData.Query<[Player].Element, [Player]> = .init()
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:34: error: 'Player' is ambiguous for type lookup in this context
+    @Query private var players: [Player]
+                                 ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:87:29: error: 'Player' is ambiguous for type lookup in this context
+    private var myPlayers: [Player] {
+                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:145:8: error: invalid redeclaration of 'StatCard'
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:503:8: note: 'StatCard' previously declared here
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:503:8: note: 'StatCard' previously declared here
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:195:17: error: 'Player' is ambiguous for type lookup in this context
+    let player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: error: invalid redeclaration of 'Player'
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: 'Player' previously declared here
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: 'Player' previously declared here
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer14DraftBoardViewV7players33_465D39BA6B8B1FDB1B68693E4AFDA786LL5QueryfMp_.swift:1:45: error: 'Player' is ambiguous for type lookup in this context
+private(set) var _players: SwiftData.Query<[Player].Element, [Player]> = .init()
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:11:40: error: 'Player' is ambiguous for type lookup in this context
+    @State private var selectedPlayer: Player?
+                                       ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:34: error: 'Player' is ambiguous for type lookup in this context
+    @Query private var players: [Player]
+                                 ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:93:35: error: 'Player' is ambiguous for type lookup in this context
+    private var filteredPlayers: [Player] {
+                                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:352:49: error: 'Player' is ambiguous for type lookup in this context
+    private func getPlayerForPick(pick: Int) -> Player? {
+                                                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:369:19: error: 'Player' is ambiguous for type lookup in this context
+    let players: [Player]
+                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:370:28: error: 'Player' is ambiguous for type lookup in this context
+    let onPlayerSelected: (Player) -> Void
+                           ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:389:17: error: 'Player' is ambiguous for type lookup in this context
+    let player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:438:17: error: 'Player' is ambiguous for type lookup in this context
+    let player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:2:54: error: 'Player' is ambiguous for type lookup in this context
+private var _$backingData: any SwiftData.BackingData<Player> = Player.createBackingData()
+                                                     ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:4:61: error: 'Player' is ambiguous for type lookup in this context
+public var persistentBackingData: any SwiftData.BackingData<Player> {
+                                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:35:45: error: 'Player' is ambiguous for type lookup in this context
+init(backingData: any SwiftData.BackingData<Player>) {
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:59:22: error: 'Player' is ambiguous for type lookup in this context
+    keyPath: KeyPath<Player, _M>
+                     ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:65:20: error: 'Player' is ambiguous for type lookup in this context
+  keyPath: KeyPath<Player, _M>,
+                   ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:61:19: error: 'Player' is ambiguous for type lookup in this context
+    var players: [Player]
+                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:106:28: error: 'Player' is ambiguous for type lookup in this context
+    var availablePlayers: [Player]
+                           ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:149:17: error: 'Player' is ambiguous for type lookup in this context
+    var player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:1:11: error: 'Player' is ambiguous for type lookup in this context
+extension Player: SwiftData.PersistentModel {
+          ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:4:11: error: 'Player' is ambiguous for type lookup in this context
+extension Player: Observation.Observable {
+          ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer8TeamViewV7players33_1B2274DFA68D5B2453D08933BD2ABF3BLL5QueryfMp_.swift:1:45: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:34: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:87:29: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:145:8: Invalid redeclaration of 'StatCard'
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:195:17: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: Invalid redeclaration of 'Player'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer14DraftBoardViewV7players33_465D39BA6B8B1FDB1B68693E4AFDA786LL5QueryfMp_.swift:1:45: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:11:40: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:34: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:93:35: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:352:49: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:369:19: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:370:28: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:389:17: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:438:17: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:2:54: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:4:61: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:35:45: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:59:22: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:65:20: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:61:19: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:106:28: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:149:17: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:1:11: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:4:11: 'Player' is ambiguous for type lookup in this context
+
+SwiftCompile normal arm64 Compiling\ Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/Item.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:2:54: error: 'Player' is ambiguous for type lookup in this context
+private var _$backingData: any SwiftData.BackingData<Player> = Player.createBackingData()
+                                                     ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:4:61: error: 'Player' is ambiguous for type lookup in this context
+public var persistentBackingData: any SwiftData.BackingData<Player> {
+                                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:35:45: error: 'Player' is ambiguous for type lookup in this context
+init(backingData: any SwiftData.BackingData<Player>) {
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:59:22: error: 'Player' is ambiguous for type lookup in this context
+    keyPath: KeyPath<Player, _M>
+                     ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:65:20: error: 'Player' is ambiguous for type lookup in this context
+  keyPath: KeyPath<Player, _M>,
+                   ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: error: invalid redeclaration of 'Player'
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: 'Player' previously declared here
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: 'Player' previously declared here
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:61:19: error: 'Player' is ambiguous for type lookup in this context
+    var players: [Player]
+                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:106:28: error: 'Player' is ambiguous for type lookup in this context
+    var availablePlayers: [Player]
+                           ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:149:17: error: 'Player' is ambiguous for type lookup in this context
+    var player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:1:11: error: 'Player' is ambiguous for type lookup in this context
+extension Player: SwiftData.PersistentModel {
+          ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:4:11: error: 'Player' is ambiguous for type lookup in this context
+extension Player: Observation.Observable {
+          ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer6PlayerC2id18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.id, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC2id5ModelfMr_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'id' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC2id5ModelfMr_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'id' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC4name18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.name, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC4name5ModelfMr1_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'name' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC4name5ModelfMr1_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'name' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC8position18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.position, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC8position5ModelfMr2_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'position' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC8position5ModelfMr2_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'position' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC4team18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.team, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC4team5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'team' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC4team5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'team' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC6league18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.league, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC6league5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'league' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC6league5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'league' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC6points18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.points, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC6points5ModelfMr5_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'points' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC6points5ModelfMr5_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'points' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC5goals18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.goals, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC5goals5ModelfMr6_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'goals' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC5goals5ModelfMr6_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'goals' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC7assists18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.assists, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC7assists5ModelfMr7_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'assists' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC7assists5ModelfMr7_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'assists' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC6passes18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.passes, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC6passes5ModelfMr8_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'passes' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC6passes5ModelfMr8_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'passes' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC11cleanSheets18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.cleanSheets, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC11cleanSheets5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'cleanSheets' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC11cleanSheets5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'cleanSheets' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC5saves18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.saves, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC5saves5ModelfMr10_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'saves' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC5saves5ModelfMr10_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'saves' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC11yellowCards18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.yellowCards, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC11yellowCards5ModelfMr11_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'yellowCards' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC11yellowCards5ModelfMr11_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'yellowCards' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC8redCards18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.redCards, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC8redCards5ModelfMr12_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'redCards' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC8redCards5ModelfMr12_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'redCards' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC9isDrafted18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.isDrafted, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC9isDrafted5ModelfMr13_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'isDrafted' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC9isDrafted5ModelfMr13_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'isDrafted' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC9draftedBy18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.draftedBy, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC9draftedBy5ModelfMr14_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftedBy' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC9draftedBy5ModelfMr14_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftedBy' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC10draftRound18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.draftRound, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC10draftRound5ModelfMr15_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftRound' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC10draftRound5ModelfMr15_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftRound' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC9draftPick18_PersistedPropertyfMa_.swift:4:40: error: cannot infer key path type from context; consider explicitly specifying a root type
+        _$backingData.setValue(forKey: \.draftPick, to: initialValue)
+                                       ^
+@__swiftmacro_11hsappsoccer6PlayerC9draftPick5ModelfMr16_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftPick' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6PlayerC9draftPick5ModelfMr16_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftPick' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:15:61: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "id", keypath: \Player.id, defaultValue: nil, metadata: nil),
+                                                            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:16:63: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "name", keypath: \Player.name, defaultValue: nil, metadata: nil),
+                                                              ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:17:67: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "position", keypath: \Player.position, defaultValue: nil, metadata: nil),
+                                                                  ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:18:63: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "team", keypath: \Player.team, defaultValue: nil, metadata: nil),
+                                                              ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:19:65: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "league", keypath: \Player.league, defaultValue: nil, metadata: nil),
+                                                                ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:20:65: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "points", keypath: \Player.points, defaultValue: nil, metadata: nil),
+                                                                ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:21:64: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "goals", keypath: \Player.goals, defaultValue: nil, metadata: nil),
+                                                               ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:22:66: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "assists", keypath: \Player.assists, defaultValue: nil, metadata: nil),
+                                                                 ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:23:65: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "passes", keypath: \Player.passes, defaultValue: nil, metadata: nil),
+                                                                ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:24:70: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "cleanSheets", keypath: \Player.cleanSheets, defaultValue: nil, metadata: nil),
+                                                                     ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:25:64: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "saves", keypath: \Player.saves, defaultValue: nil, metadata: nil),
+                                                               ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:26:70: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "yellowCards", keypath: \Player.yellowCards, defaultValue: nil, metadata: nil),
+                                                                     ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:27:67: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "redCards", keypath: \Player.redCards, defaultValue: nil, metadata: nil),
+                                                                  ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:28:68: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "isDrafted", keypath: \Player.isDrafted, defaultValue: nil, metadata: nil),
+                                                                   ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:29:68: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "draftedBy", keypath: \Player.draftedBy, defaultValue: nil, metadata: nil),
+                                                                   ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:30:69: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "draftRound", keypath: \Player.draftRound, defaultValue: nil, metadata: nil),
+                                                                    ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:31:68: error: invalid component of Swift key path
+    SwiftData.Schema.PropertyMetadata(name: "draftPick", keypath: \Player.draftPick, defaultValue: nil, metadata: nil)
+                                                                   ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:61:26: error: generic parameter 'Member' could not be inferred
+  _$observationRegistrar.access(self, keyPath: keyPath)
+                         ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+Observation.ObservationRegistrar:4:17: note: in call to function 'access(_:keyPath:)'
+    public func access<Subject, Member>(_ subject: Subject, keyPath: KeyPath<Subject, Member>) where Subject : Observable
+                ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:68:30: error: generic parameter 'Member' could not be inferred
+  try _$observationRegistrar.withMutation(of: self, keyPath: keyPath, mutation)
+                             ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+Observation.ObservationRegistrar:7:17: note: in call to function 'withMutation(of:keyPath:_:)'
+    public func withMutation<Subject, Member, T>(of subject: Subject, keyPath: KeyPath<Subject, Member>, _ mutation: () throws -> T) rethrows -> T where Subject : Observable
+                ^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings18_PersistedPropertyfMa_.swift:4:23: error: no exact matches in call to instance method 'setValue'
+        _$backingData.setValue(forKey: \.scoringSettings, to: initialValue)
+                      ^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'scoringSettings' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'scoringSettings' here
+@_PersistedProperty
+^
+SwiftData.BackingData:15:10: note: candidate requires that 'ScoringSettings' conform to 'PersistentModel' (requirement specified as 'Value' : 'PersistentModel')
+    func setValue<Value>(forKey: KeyPath<Self.Model, Value>, to newValue: Value) where Value : PersistentModel
+         ^
+SwiftData.BackingData:17:10: note: candidate requires that 'ScoringSettings' conform to 'RelationshipCollection' (requirement specified as 'Value' : 'RelationshipCollection')
+    func setValue<Value, OtherModel>(forKey: KeyPath<Self.Model, Value>, to newValue: Value) where Value : RelationshipCollection, OtherModel == Value.PersistentElement
+         ^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings18_PersistedPropertyfMa_.swift:9:21: error: no exact matches in call to instance method 'getValue'
+        return self.getValue(forKey: \.scoringSettings)
+                    ^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'scoringSettings' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'scoringSettings' here
+@_PersistedProperty
+^
+SwiftData.PersistentModel:7:17: note: candidate requires that 'ScoringSettings' conform to 'PersistentModel' (requirement specified as 'Value' : 'PersistentModel')
+    public func getValue<Value>(forKey: KeyPath<Self, Value>) -> Value where Value : PersistentModel
+                ^
+SwiftData.PersistentModel:9:17: note: candidate requires that 'ScoringSettings' conform to 'RelationshipCollection' (requirement specified as 'Value' : 'RelationshipCollection')
+    public func getValue<Value, OtherModel>(forKey: KeyPath<Self, Value>) -> Value where Value : RelationshipCollection, OtherModel == Value.PersistentElement
+                ^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings18_PersistedPropertyfMa_.swift:13:18: error: no exact matches in call to instance method 'setValue'
+            self.setValue(forKey: \.scoringSettings, to: newValue)
+                 ^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'scoringSettings' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings5ModelfMr3_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'scoringSettings' here
+@_PersistedProperty
+^
+SwiftData.PersistentModel:13:17: note: candidate requires that 'ScoringSettings' conform to 'PersistentModel' (requirement specified as 'Value' : 'PersistentModel')
+    public func setValue<Value>(forKey: KeyPath<Self, Value>, to newValue: Value) where Value : PersistentModel
+                ^
+SwiftData.PersistentModel:15:17: note: candidate requires that 'ScoringSettings' conform to 'RelationshipCollection' (requirement specified as 'Value' : 'RelationshipCollection')
+    public func setValue<Value, OtherModel>(forKey: KeyPath<Self, Value>, to newValue: Value) where Value : RelationshipCollection, OtherModel == Value.PersistentElement
+                ^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings18_PersistedPropertyfMa_.swift:4:23: error: no exact matches in call to instance method 'setValue'
+        _$backingData.setValue(forKey: \.draftSettings, to: initialValue)
+                      ^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftSettings' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftSettings' here
+@_PersistedProperty
+^
+SwiftData.BackingData:15:10: note: candidate requires that 'DraftSettings' conform to 'PersistentModel' (requirement specified as 'Value' : 'PersistentModel')
+    func setValue<Value>(forKey: KeyPath<Self.Model, Value>, to newValue: Value) where Value : PersistentModel
+         ^
+SwiftData.BackingData:17:10: note: candidate requires that 'DraftSettings' conform to 'RelationshipCollection' (requirement specified as 'Value' : 'RelationshipCollection')
+    func setValue<Value, OtherModel>(forKey: KeyPath<Self.Model, Value>, to newValue: Value) where Value : RelationshipCollection, OtherModel == Value.PersistentElement
+         ^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings18_PersistedPropertyfMa_.swift:9:21: error: no exact matches in call to instance method 'getValue'
+        return self.getValue(forKey: \.draftSettings)
+                    ^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftSettings' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftSettings' here
+@_PersistedProperty
+^
+SwiftData.PersistentModel:7:17: note: candidate requires that 'DraftSettings' conform to 'PersistentModel' (requirement specified as 'Value' : 'PersistentModel')
+    public func getValue<Value>(forKey: KeyPath<Self, Value>) -> Value where Value : PersistentModel
+                ^
+SwiftData.PersistentModel:9:17: note: candidate requires that 'DraftSettings' conform to 'RelationshipCollection' (requirement specified as 'Value' : 'RelationshipCollection')
+    public func getValue<Value, OtherModel>(forKey: KeyPath<Self, Value>) -> Value where Value : RelationshipCollection, OtherModel == Value.PersistentElement
+                ^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings18_PersistedPropertyfMa_.swift:13:18: error: no exact matches in call to instance method 'setValue'
+            self.setValue(forKey: \.draftSettings, to: newValue)
+                 ^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftSettings' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer6LeagueC13draftSettings5ModelfMr4_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftSettings' here
+@_PersistedProperty
+^
+SwiftData.PersistentModel:13:17: note: candidate requires that 'DraftSettings' conform to 'PersistentModel' (requirement specified as 'Value' : 'PersistentModel')
+    public func setValue<Value>(forKey: KeyPath<Self, Value>, to newValue: Value) where Value : PersistentModel
+                ^
+SwiftData.PersistentModel:15:17: note: candidate requires that 'DraftSettings' conform to 'RelationshipCollection' (requirement specified as 'Value' : 'RelationshipCollection')
+    public func setValue<Value, OtherModel>(forKey: KeyPath<Self, Value>, to newValue: Value) where Value : RelationshipCollection, OtherModel == Value.PersistentElement
+                ^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory18_PersistedPropertyfMa_.swift:4:23: error: referencing instance method 'setValue(forKey:to:)' on 'Array' requires that 'DraftPick' conform to 'PersistentModel'
+        _$backingData.setValue(forKey: \.draftHistory, to: initialValue)
+                      ^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftHistory' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftHistory' here
+@_PersistedProperty
+^
+SwiftData.Array:3:11: note: requirement from conditional conformance of '[DraftPick]' to 'RelationshipCollection'
+extension Array : RelationshipCollection where Element : PersistentModel {
+          ^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory18_PersistedPropertyfMa_.swift:9:21: error: referencing instance method 'getValue(forKey:)' on 'Array' requires that 'DraftPick' conform to 'PersistentModel'
+        return self.getValue(forKey: \.draftHistory)
+                    ^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftHistory' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftHistory' here
+@_PersistedProperty
+^
+SwiftData.Array:3:11: note: requirement from conditional conformance of '[DraftPick]' to 'RelationshipCollection'
+extension Array : RelationshipCollection where Element : PersistentModel {
+          ^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory18_PersistedPropertyfMa_.swift:13:18: error: referencing instance method 'setValue(forKey:to:)' on 'Array' requires that 'DraftPick' conform to 'PersistentModel'
+            self.setValue(forKey: \.draftHistory, to: newValue)
+                 ^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftHistory' here
+@_PersistedProperty
+^
+@__swiftmacro_11hsappsoccer5DraftC12draftHistory5ModelfMr9_.swift:1:1: note: in expansion of macro '_PersistedProperty' on property 'draftHistory' here
+@_PersistedProperty
+^
+SwiftData.Array:3:11: note: requirement from conditional conformance of '[DraftPick]' to 'RelationshipCollection'
+extension Array : RelationshipCollection where Element : PersistentModel {
+          ^
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:2:54: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:4:61: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:35:45: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:59:22: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:65:20: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: Invalid redeclaration of 'Player'
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:61:19: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:106:28: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:149:17: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:1:11: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMe_.swift:4:11: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC2id18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC4name18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC8position18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC4team18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC6league18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC6points18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC5goals18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC7assists18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC6passes18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC11cleanSheets18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC5saves18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC11yellowCards18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC8redCards18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC9isDrafted18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC9draftedBy18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC10draftRound18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6PlayerC9draftPick18_PersistedPropertyfMa_.swift:4:40: Cannot infer key path type from context; consider explicitly specifying a root type
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:15:61: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:16:63: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:17:67: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:18:63: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:19:65: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:20:65: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:21:64: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:22:66: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:23:65: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:24:70: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:25:64: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:26:70: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:27:67: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:28:68: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:29:68: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:30:69: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:31:68: Invalid component of Swift key path
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:61:26: Generic parameter 'Member' could not be inferred
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:68:30: Generic parameter 'Member' could not be inferred
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings18_PersistedPropertyfMa_.swift:4:23: No exact matches in call to instance method 'setValue'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings18_PersistedPropertyfMa_.swift:9:21: No exact matches in call to instance method 'getValue'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6LeagueC15scoringSettings18_PersistedPropertyfMa_.swift:13:18: No exact matches in call to instance method 'setValue'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6LeagueC13draftSettings18_PersistedPropertyfMa_.swift:4:23: No exact matches in call to instance method 'setValue'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6LeagueC13draftSettings18_PersistedPropertyfMa_.swift:9:21: No exact matches in call to instance method 'getValue'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6LeagueC13draftSettings18_PersistedPropertyfMa_.swift:13:18: No exact matches in call to instance method 'setValue'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer5DraftC12draftHistory18_PersistedPropertyfMa_.swift:4:23: Referencing instance method 'setValue(forKey:to:)' on 'Array' requires that 'DraftPick' conform to 'PersistentModel'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer5DraftC12draftHistory18_PersistedPropertyfMa_.swift:9:21: Referencing instance method 'getValue(forKey:)' on 'Array' requires that 'DraftPick' conform to 'PersistentModel'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer5DraftC12draftHistory18_PersistedPropertyfMa_.swift:13:18: Referencing instance method 'setValue(forKey:to:)' on 'Array' requires that 'DraftPick' conform to 'PersistentModel'
+
+SwiftCompile normal arm64 Compiling\ PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/PlayerDataService.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift:11:42: error: 'Player' is ambiguous for type lookup in this context
+        let descriptor = FetchDescriptor<Player>()
+                                         ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift:12:44: error: generic parameter 'T' could not be inferred
+        let existingPlayers = try? context.fetch(descriptor)
+                                           ^
+SwiftData.ModelContext:30:17: note: in call to function 'fetch'
+    public func fetch<T>(_ descriptor: FetchDescriptor<T>) throws -> [T] where T : PersistentModel
+                ^
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:35:45: error: 'Player' is ambiguous for type lookup in this context
+init(backingData: any SwiftData.BackingData<Player>) {
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift:11:42: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift:12:44: Generic parameter 'T' could not be inferred
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:35:45: 'Player' is ambiguous for type lookup in this context
+
+SwiftCompile normal arm64 Compiling\ hsappsoccerApp.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccerApp.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:2:54: error: 'Player' is ambiguous for type lookup in this context
+private var _$backingData: any SwiftData.BackingData<Player> = Player.createBackingData()
+                                                     ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:12:1: note: in expansion of macro 'Model' on class 'Player' here
+@Model
+^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer6Player5ModelfMm_.swift:2:54: 'Player' is ambiguous for type lookup in this context
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/ContentView.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+@__swiftmacro_11hsappsoccer8TeamViewV7players33_1B2274DFA68D5B2453D08933BD2ABF3BLL5QueryfMp_.swift:1:45: error: 'Player' is ambiguous for type lookup in this context
+private(set) var _players: SwiftData.Query<[Player].Element, [Player]> = .init()
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:34: error: 'Player' is ambiguous for type lookup in this context
+    @Query private var players: [Player]
+                                 ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:87:29: error: 'Player' is ambiguous for type lookup in this context
+    private var myPlayers: [Player] {
+                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:145:8: error: invalid redeclaration of 'StatCard'
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:503:8: note: 'StatCard' previously declared here
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:503:8: note: 'StatCard' previously declared here
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:195:17: error: 'Player' is ambiguous for type lookup in this context
+    let player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: error: invalid redeclaration of 'Player'
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: 'Player' previously declared here
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: 'Player' previously declared here
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer14DraftBoardViewV7players33_465D39BA6B8B1FDB1B68693E4AFDA786LL5QueryfMp_.swift:1:45: error: 'Player' is ambiguous for type lookup in this context
+private(set) var _players: SwiftData.Query<[Player].Element, [Player]> = .init()
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:54:72: error: extra argument 'icon' in call
+                        StatCard(title: "My Team", value: "8th", icon: "person.3.fill", color: .blue)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer8TeamViewV7players33_1B2274DFA68D5B2453D08933BD2ABF3BLL5QueryfMp_.swift:1:45: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:85:34: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:87:29: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:145:8: Invalid redeclaration of 'StatCard'
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:195:17: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: Invalid redeclaration of 'Player'
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer14DraftBoardViewV7players33_465D39BA6B8B1FDB1B68693E4AFDA786LL5QueryfMp_.swift:1:45: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:54:72: Extra argument 'icon' in call
+
+SwiftCompile normal arm64 Compiling\ DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift (in target 'hsappsoccer' from project 'hsappsoccer')
+    cd /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift -primary-file /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/PlayerDataService.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/hsappsoccerApp.swift /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.d -emit-const-values-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.swiftconstvalues -emit-reference-dependencies-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.swiftdeps -serialize-diagnostics-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.dia -emit-localized-strings -emit-localized-strings-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64 -target arm64-apple-ios18.2-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.2.sdk -I /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -F /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/hsappsoccer_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/hzzyr/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.2-22C146-07b28473f605e47e75261259d3ef3b5a.sdkstatcache -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-generated-files.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-own-target-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-all-target-headers.hmap -Xcc -iquote -Xcc /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/hsappsoccer-project-headers.hmap -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources-normal/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources/arm64 -Xcc -I/Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/DerivedSources -Xcc -DDEBUG\=1 -module-name hsappsoccer -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphonesimulator18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Build/Intermediates.noindex/hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.o -index-unit-output-path /hsappsoccer.build/Debug-iphonesimulator/hsappsoccer.build/Objects-normal/arm64/DraftBoardView.o -index-store-path /Users/hzzyr/Library/Developer/Xcode/DerivedData/hsappsoccer-bnvxnvynolghsndfjezflzysjrau/Index.noindex/DataStore -index-system-modules
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:11:40: error: 'Player' is ambiguous for type lookup in this context
+    @State private var selectedPlayer: Player?
+                                       ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+@__swiftmacro_11hsappsoccer14DraftBoardViewV7players33_465D39BA6B8B1FDB1B68693E4AFDA786LL5QueryfMp_.swift:1:45: error: 'Player' is ambiguous for type lookup in this context
+private(set) var _players: SwiftData.Query<[Player].Element, [Player]> = .init()
+                                            ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:5: note: in expansion of macro 'Query' on property 'players' here
+    @Query private var players: [Player]
+    ^                  ~~~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:34: error: 'Player' is ambiguous for type lookup in this context
+    @Query private var players: [Player]
+                                 ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:93:35: error: 'Player' is ambiguous for type lookup in this context
+    private var filteredPlayers: [Player] {
+                                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:352:49: error: 'Player' is ambiguous for type lookup in this context
+    private func getPlayerForPick(pick: Int) -> Player? {
+                                                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:369:19: error: 'Player' is ambiguous for type lookup in this context
+    let players: [Player]
+                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:370:28: error: 'Player' is ambiguous for type lookup in this context
+    let onPlayerSelected: (Player) -> Void
+                           ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:389:17: error: 'Player' is ambiguous for type lookup in this context
+    let player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:438:17: error: 'Player' is ambiguous for type lookup in this context
+    let player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:503:8: error: invalid redeclaration of 'StatCard'
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:145:8: note: 'StatCard' previously declared here
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:145:8: note: 'StatCard' previously declared here
+struct StatCard: View {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:149:19: warning: value 'draft' was defined but never used; consider replacing with boolean test
+        guard let draft = currentDraft else { return false }
+              ~~~~^~~~~~~~
+                                       != nil
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:149:17: error: 'Player' is ambiguous for type lookup in this context
+    var player: Player
+                ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:61:19: error: 'Player' is ambiguous for type lookup in this context
+    var players: [Player]
+                  ^~~~~~
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/ContentView.swift:269:8: note: found this candidate
+struct Player: Identifiable {
+       ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:13:13: note: found this candidate
+final class Player {
+            ^
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:197:26: error: 'nil' requires a contextual type
+        selectedPlayer = nil
+                         ^
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:11:40: 'Player' is ambiguous for type lookup in this context
+
+/var/folders/bn/y79nptr559v9s7zmk1q4wbwr0000gn/T/swift-generated-sources/@__swiftmacro_11hsappsoccer14DraftBoardViewV7players33_465D39BA6B8B1FDB1B68693E4AFDA786LL5QueryfMp_.swift:1:45: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:6:34: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:93:35: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:352:49: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:369:19: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:370:28: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:389:17: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:438:17: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:503:8: Invalid redeclaration of 'StatCard'
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:149:19: Value 'draft' was defined but never used; consider replacing with boolean test
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:149:17: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/Item.swift:61:19: 'Player' is ambiguous for type lookup in this context
+
+/Users/hzzyr/Desktop/hsnewappsoccer0/hsappsoccer/hsappsoccer/DraftBoardView.swift:197:26: 'nil' requires a contextual type
+
+
+
+Build failed    7/31/25, 9:33 PM    13.1 seconds
