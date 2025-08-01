@@ -40,7 +40,7 @@ struct HomeView: View {
                         Text("Fantasy Soccer")
                             .font(.largeTitle)
                             .fontWeight(.bold)
-                            .foregroundColor(.green)
+                            .foregroundColor(.purple)
                         Text("PPR Style - Points Per Pass")
                             .font(.subheadline)
                             .foregroundColor(.secondary)
@@ -100,7 +100,7 @@ struct DraftView: View {
                     Button("Draft") {
                         // Draft logic here
                     }
-                    .foregroundColor(.green)
+                    .foregroundColor(.purple)
                 }
             }
         }
@@ -136,7 +136,7 @@ struct TeamView: View {
                     Button("Manage") {
                         // Team management
                     }
-                    .foregroundColor(.green)
+                    .foregroundColor(.purple)
                 }
             }
         }
@@ -246,7 +246,7 @@ struct PlayerRow: View {
                 Text("\(player.points)")
                     .font(.title3)
                     .fontWeight(.bold)
-                    .foregroundColor(.green)
+                    .foregroundColor(.purple)
                 Text("points")
                     .font(.caption2)
                     .foregroundColor(.secondary)
@@ -287,7 +287,7 @@ struct StandingRow: View {
             Text("\(team.points)")
                 .font(.subheadline)
                 .fontWeight(.semibold)
-                .foregroundColor(.green)
+                .foregroundColor(.purple)
         }
         .padding(.vertical, 2)
     }
