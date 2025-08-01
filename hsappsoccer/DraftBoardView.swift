@@ -91,16 +91,24 @@ struct DraftBoardView: View {
     }
     
     private var filteredPlayers: [Player] {
+        print("🔍 DEBUG: Total players in database: \(players.count)")
+        
         let available = players.filter { !$0.isDrafted }
+        print("🔍 DEBUG: Available (not drafted) players: \(available.count)")
         
         let positionFiltered = selectedPosition == "ALL" ? available : available.filter { $0.position == selectedPosition }
+        print("🔍 DEBUG: Position filtered players: \(positionFiltered.count)")
         
         let searchFiltered = searchText.isEmpty ? positionFiltered : positionFiltered.filter { 
             $0.name.localizedCaseInsensitiveContains(searchText) ||
             $0.team.localizedCaseInsensitiveContains(searchText)
         }
+        print("🔍 DEBUG: Search filtered players: \(searchFiltered.count)")
         
-        return searchFiltered.sorted { $0.points > $1.points }
+        let sorted = searchFiltered.sorted { $0.points > $1.points }
+        print("🔍 DEBUG: Final sorted players: \(sorted.count)")
+        
+        return sorted
     }
     
     private func setupDraft() {

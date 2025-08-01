@@ -7,15 +7,22 @@ class PlayerDataService {
     private init() {}
     
     func populatePlayers(context: ModelContext) {
+        print("🚀 DEBUG: populatePlayers called")
+        
         // Check if players already exist
         let descriptor = FetchDescriptor<Player>()
         let existingPlayers = try? context.fetch(descriptor)
         
+        print("🚀 DEBUG: Existing players count: \(existingPlayers?.count ?? 0)")
+        
         if let existing = existingPlayers, !existing.isEmpty {
+            print("🚀 DEBUG: Players already exist, skipping population")
             return // Players already exist
         }
         
+        print("🚀 DEBUG: Creating new players...")
         let players = createPlayerData()
+        print("🚀 DEBUG: Created \(players.count) player data objects")
         
         for playerData in players {
             let player = Player(
@@ -36,7 +43,12 @@ class PlayerDataService {
             context.insert(player)
         }
         
-        try? context.save()
+        do {
+            try context.save()
+            print("🚀 DEBUG: Successfully saved \(players.count) players to database")
+        } catch {
+            print("❌ DEBUG: Error saving players: \(error)")
+        }
     }
     
     private func createPlayerData() -> [PlayerData] {
